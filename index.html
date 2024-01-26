@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Cody K.">
+    <meta name="description"
+        content="This page contains all the things I am learning how to create as I am learning HTML.">
+    <title>My First Webpage</title>
+    <link rel="icon" href="icons8-html-5-48.png" type="image/x-icon">
+    <link rel="stylesheet" href="main.css" type="text/css">
+</head>
+
+<body>
+    <header>
+        <h1>My Goals For The Year</h1>
+
+        <nav aria-label="primary-navigation">
+            <ul>
+                <li>
+                    <a href="#learnhtml">Learn HTML</a>
+                </li>
+                <li>
+                    <a href="#vacation">Vacation</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <hr>
+    <Main>
+        <article id="learnhtml">
+            <h2>I'm ready to learn HTML.</h2>
+            <p>This is my first webpage.</p>
+            <section>
+                <h3>HTML 5</h3>
+                <img src="img/icons8-html-5-48.png" alt="html5logo" title="I am learning html5" width="48" height="48">
+                <figure>
+                    <p><code>&lt;h1&gt;Hello World!&lt;/h1&gt;</code></p>
+                    <figcaption>An example of HTML5 code.</figcaption>
+                </figure>
+            </section>
+            <Section>
+                <h3>Our Daily Schedule</h3>
+                <p>Let me tell you how:</p>
+                <ol>
+                    <li>...how I learned about web dev.</li>
+                    <li>...I plan out my Schedule.</li>
+                    <li>...I use resources from <abbr title="Mozilla Developer Network.">
+                            <a href="https://developer.mozilla.org/en-US/">MDN.</a></abbr></li>
+                </ol>
+                <Aside>
+                    <details>
+                        <Summary>
+                            Guess the <mark> of hours I code per day.</mark></Summary>
+                        <p>I start at <time datetime="08:00">8 am</time> and I write code for <time datetime="PT3H">3
+                                hours every morning.</time></p>
+                    </details>
+                </Aside>
+                <br>
+                <table>
+                    <caption>My Daily Schedule</caption>
+                    <thead>
+                        <tr>
+                            <th>&nbsp;</th>
+                            <th scope="col">Time</th>
+                            <th scope="col">Activity</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row">Morning</th>
+                            <td>
+                                <time datetime="08:00">8am</time>-<time datetime="11:00">11 am</time>
+                            <td>
+                                write code
+                            </td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Break</th>
+                            <td>
+                                <time datetime="11:00">11am</time>-<time datetime="12:00">12 pm</time>
+                            <td>
+                                take lunch
+                            </td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Afternoon</th>
+                            <td>
+                                <time datetime="12:00">11pm</time>-<time datetime="05:00">5 pm</time>
+                            <td>
+                                study for other courses
+                            </td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Evening</th>
+                            <td rowspan="2">All other Times</td>
+                            <td>Free Time</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Night</th>
+                            <td>Sleep</td>
+                        </tr>
+                    </tbody>
+                    <tfoot>
+                        <tr>
+                            <td colspan="3">And that's what I do everyday, 5 days a week. Just eat, sleep, code, and
+                                recharge.</td>
+                        </tr>
+                    </tfoot>
+                </table>
+            </Section>
+        </article>
+
+        <hr>
+
+        <article id="vacation">
+
+            <h2>I am also working on my vacation</h2>
+            <p>I've been working hard and <em>really need a getaway.</em></p>
+            <p>I live in <abbr title="Wisconsin">WI</abbr> so I want to visit a beach.</p>
+
+            <section>
+                <!--TODO: Add more places-->
+                <h3>Places I'd like to visit</h3>
+                <ul>
+                    <li>
+                        <p>I've heard good things about the Caribbean</p>
+                        <figure>
+                            <img src="img/pexels-asad-photo-maldives-1450353.jpg" alt="Maldives beach in the Caribbean."
+                                title="I want to go here!" width="400" height="267" loading="lazy">
+                            <figcaption>
+                                Hanging out at the beach.
+                            </figcaption>
+                        </figure>
+                    <li>
+                        <p>I've heard good things about going here:</p>
+                        <figure>
+                            <img src="img/pexels-thorsten-technoman-338504.jpg" alt="poolside at the resort"
+                                title="I want to go here!" width="400" height="267" loading="lazy">
+                            <figcaption>
+                                Poolside at the resort.
+                            </figcaption>
+                        </figure>
+                        <address>Bahia Petempich, Carr. Cancún - Tulum Km.
+                            <br>27.5, 77580 Puerto Morelos, Q.R., Mexico
+                        </address>
+                    </li>
+                </ul>
+            </section>
+            <section>
+                <h3>Places I Want to Avoid</h3>
+                <dl>
+                    <dt>The North Pole</dt>
+                    <dd>I hear this is <strong>cold</strong></dd>
+
+                    <dt>South Pole</dt>
+                    <dd>This is also <strong>cold</strong></dd>
+
+                    <dt>Mountain Tops</dt>
+                    <dd>These are also <strong>cold</strong></dd>
+                </dl>
+            </section>
+        </article>
+    </Main>
+
+    <hr>
+    <footer>
+        <p>
+            &lt;&lt;&lt; &copy; <a href="about.html">Cody K</a>&gt;&gt;&gt;
+        </p>
+        <p><a href="#">Back to Top</a></p>
+        <p><a href="/">Back to Homepage</a></p>
+    </footer>
+
+</body>
+
+</html>
